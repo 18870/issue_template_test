@@ -4,14 +4,13 @@ labels: ['bug']
 body:
   - type: checkboxes
     attributes:
-      label: Is there an existing issue for this?
-      description: Please search to see if an issue already exists for the bug you encountered.
+      label: Before you asking
       options:
       - label: I have searched the existing issues
         required: true
       - label: I spend at least 5 minutes for thinking and preparing
         required: true
-      - label: I checked Frequently Asked Questions (FAQ) in Wiki page.
+      - label: I checked Frequently Asked Questions (FAQ) in Wiki page
         required: true
       - label: I am using the latest version of Alas
         required: false
@@ -27,7 +26,6 @@ body:
     attributes:
       label: To Reproduce
       description: Steps to reproduce the behavior
-      placeholder: Tell us what you see!
       value: |
         1. Go to '...'
         2. Click on '....'
