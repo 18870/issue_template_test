@@ -3,6 +3,7 @@ description: 使用中文进行 Bug 报告
 labels: ['bug']
 body:
   - type: checkboxes
+    id: checks
     attributes:
       label: 在提问之前...
       options:

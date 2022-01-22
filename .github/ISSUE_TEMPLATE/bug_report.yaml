@@ -3,6 +3,7 @@ description: Create a report to help us improve
 labels: ['bug']
 body:
   - type: checkboxes
+    id: checks
     attributes:
       label: Before you asking
       options:
