@@ -64,7 +64,7 @@ body:
     attributes:
       label: Anything else?
       description: |
-      Related configs? Links? References?
-      Anything that will give us more context about the issue you are encountering!
+        Related configs? Links? References?
+        Anything that will give us more context about the issue you are encountering!
     validations:
       required: false
