@@ -24,3 +24,15 @@ body:
       description: Add any other context or screenshots about the feature request here.
     validations:
       required: false
+  - type: checkboxes
+    id: final_check
+    attributes:
+      label: Final check
+      description: We may close your issue if it doesn't meets the specification.
+      options:
+      - label: I am sure this is a feature request, not bug report
+        required: true
+      - label: I provide my requirements or relevant solutions in detail
+        required: true
+      - label: By submitting this issue, I agree to follow [Alas Community Guidelines](https://github.com/LmeSzinc/AzurLaneAutoScript/issues/1418)
+        required: true
