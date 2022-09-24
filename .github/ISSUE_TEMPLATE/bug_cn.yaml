@@ -71,8 +71,9 @@ body:
     id: final_check
     attributes:
       label: 最后确认
+      description: 不遵守规范的 issue 可能会被**直接关闭**
       options:
       - label: 我确保我提供了相关 log 或 其他能够帮助解决问题的信息
         required: true
-      - label: 提交这个 issue 意味着我已经阅读并同意遵守 Alas 社区准册 https://github.com/LmeSzinc/AzurLaneAutoScript/issues/1418
+      - label: 提交这个 issue 意味着我已经阅读并同意遵守 Alas 社区准则 https://github.com/LmeSzinc/AzurLaneAutoScript/issues/1418
         required: true
