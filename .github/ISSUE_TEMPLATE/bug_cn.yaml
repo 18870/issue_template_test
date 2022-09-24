@@ -46,6 +46,7 @@ body:
     attributes:
       label: 相关 Logs
       description: 请复制并粘贴任何相关的日志输出。
+      placeholder: 上传出错 log，在 log/error 目录下，以毫秒时间戳为文件夹名，包含 log.txt 和最近的截图。若不是错误而是非预期的行为，提供在 log 目录下当天的 log和至少一张游戏截图。
       render: shell
     validations:
       required: false
