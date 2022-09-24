@@ -7,13 +7,13 @@ body:
     attributes:
       label: Before you asking
       options:
-      - label: I have searched the existing issues
+      - label: I have searched the existing issues and discussions
         required: true
       - label: I spend at least 5 minutes for thinking and preparing
         required: true
       - label: I checked Frequently Asked Questions (FAQ) in Wiki page
         required: true
-      - label: I am using the latest version of Alas
+      - label: I am using the latest version of Alas. Please provide commit signature below if not.
         required: false
   - type: textarea
     id: describe
@@ -27,11 +27,11 @@ body:
     attributes:
       label: To Reproduce
       description: Steps to reproduce the behavior
-      value: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
+      placeholder: |
+        1. Go to '...' 
+        2. Click on '....' 
+        3. Scroll down to '....' 
+        4. See error 
     validations:
       required: false
   - type: textarea
@@ -67,3 +67,13 @@ body:
         Anything that will give us more context about the issue you are encountering!
     validations:
       required: false
+  - type: checkboxes
+    id: final_check
+    attributes:
+      label: Final check
+      description: We may close your issue if it doesn't meets the specification.
+      options:
+      - label: I provide at least relevant logs or other information that can helps solving problem
+        required: true
+      - label: By submitting this issue, I agree to follow [Alas Community Guidelines](https://github.com/LmeSzinc/AzurLaneAutoScript/issues/1418)
+        required: true
